@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đèn kéo quân - Lu Gia Hưng (255A010006)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html">Trang chủ</a>
+      <a href="bai17.html">Bài 17</a>
+      <a href="bai18.html">Bài 18</a>
+      <a href="bai19.html">Bài 19</a>
+      <a href="bai20.html">Bài 20</a>
+      <a href="bai21.html">Bài 21</a>
+      <a href="bai22.html">Bài 22</a>
+      <a href="den-keo-quan.html" class="active" aria-current="page">Đèn kéo quân</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <h1>Đèn kéo quân</h1>
+    <p>Lu Gia Hưng &middot; MSSV <strong>255A010006</strong></p>
+  </header>
+  <main class="container section">
+    <p class="center muted">Rê chuột vào một mặt đèn để dừng, rê ra để đèn quay tiếp. Trên điện thoại: chạm giữ để dừng.</p>
+    <div class="scene">
+      <div class="lantern" id="lantern">
+        <div class="face" style="--i:0">
+          <span class="face-label">Mặt 1<br><small>images/lantern/den1.jpg</small></span>
+          <img src="images/lantern/den1.jpg" alt="Mặt đèn 1" onerror="this.remove()">
+        </div>
+        <div class="face" style="--i:1">
+          <span class="face-label">Mặt 2<br><small>images/lantern/den2.jpg</small></span>
+          <img src="images/lantern/den2.jpg" alt="Mặt đèn 2" onerror="this.remove()">
+        </div>
+        <div class="face" style="--i:2">
+          <span class="face-label">Mặt 3<br><small>images/lantern/den3.jpg</small></span>
+          <img src="images/lantern/den3.jpg" alt="Mặt đèn 3" onerror="this.remove()">
+        </div>
+        <div class="face" style="--i:3">
+          <span class="face-label">Mặt 4<br><small>images/lantern/den4.jpg</small></span>
+          <img src="images/lantern/den4.jpg" alt="Mặt đèn 4" onerror="this.remove()">
+        </div>
+        <div class="face" style="--i:4">
+          <span class="face-label">Mặt 5<br><small>images/lantern/den5.jpg</small></span>
+          <img src="images/lantern/den5.jpg" alt="Mặt đèn 5" onerror="this.remove()">
+        </div>
+        <div class="face" style="--i:5">
+          <span class="face-label">Mặt 6<br><small>images/lantern/den6.jpg</small></span>
+          <img src="images/lantern/den6.jpg" alt="Mặt đèn 6" onerror="this.remove()">
+        </div>
+      </div>
+    </div>
+    <p class="center status">Trạng thái: <strong id="status">Đang quay</strong></p>
+  </main>
+  <footer class="footer">
+    <p>Lu Gia Hưng &middot; MSSV: <strong>255A010006</strong> &middot; Trường Đại học Văn Hiến</p>
+  </footer>
+  <script src="js/lantern.js"></script>
+</body>
+</html>
